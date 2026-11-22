@@ -1,0 +1,44 @@
+let num=[10,20,30];
+
+num.push(40);
+console.log(num);
+console.log("****************************");
+let i= num.pop();
+console.log(i);
+console.log(num);
+console.log("****************************");
+
+num.unshift(50);
+console.log(num);
+console.log("****************************");
+
+let e=num.shift();
+console.log(e);// stored variable is gone
+console.log(num);
+
+console.log("****************************");
+//Splice method
+console.log("Splice method");
+
+let fruits=['orange','apple','graphs','kiwi'];
+console.log(fruits);
+console.log("****************************");
+fruits.splice(4,0,'water melon');
+console.log(fruits);
+
+console.log("****************************");
+for (let e in fruits)
+    {
+console.log(e +"="+fruits[e]);
+}
+console.log("****************************");
+fruits.splice(0,3,'banana');
+console.log(fruits);
+
+console.log("****************************");
+console.log("index of method");
+let r=[10,20,30,40,50,10.60,70,10];
+
+let h= console.log(r.indexOf(10));
+console.log("****************************");
+//console.log(r,r.indexOf(10)+);

@@ -1,0 +1,9 @@
+let user= {
+    name:'Riya',
+    age :30,
+    city :'Pune',
+    empStatus: 'Active'
+};
+console.log(`HI ${user.name}`);
+
+

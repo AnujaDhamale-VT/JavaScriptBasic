@@ -1,0 +1,28 @@
+let num=[10,20,30,40,50,60];
+//Printing value
+ for(let e of num){
+    console.log(e);
+ }
+console.log("******************************");
+ //priting index
+
+ for(let i in num){
+   // console.log(i);
+   //Printing index with value
+
+   console.log(i +" = "+num[i]);
+ }
+
+ console.log("******************************");
+ console.log("********Reverse array*******************");
+ for(let k =num.length-1; k>=0;  k--)
+ {
+    console.log(num[k]);
+ }
+
+console.log("********Reverse array index*******************");
+/* 
+for(let e in num){
+    let reversekey = num.length-1 - e;
+    console.log(num[e]);
+}*/

@@ -1,0 +1,15 @@
+let marks=[
+    [10,20,30,40],
+    [300,400,500],
+    [10000],
+    [30.2, 50.2]
+]
+
+for (let i=0;i<marks.length; i++)
+{
+   for (let j=0; j<marks[i].length; j++){
+     process.stdout.write(`${marks[i][j]} `);
+
+   }
+    process.stdout.write(`\n`);
+}

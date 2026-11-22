@@ -1,0 +1,11 @@
+let num=[10,20,30,40,50];
+console.log("Printing reverse array loop using for loop");
+
+for(let e of num){
+    let count=num.length- num.indexOf(e)-1; //lengh=5 ; 5-1=4 ; 4 is highest index
+             //5-0-1 =5-1=4
+
+    console.log(num[count]);
+     
+
+}
